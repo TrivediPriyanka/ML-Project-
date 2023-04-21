@@ -45,14 +45,15 @@ The reason for removing stopwords is to reduce the dimensionality of the text da
 
 Stopword removal algorithms use a list of predefined stopwords for a given language or domain. These lists can be customized to include or exclude specific words depending on the application. Once the list of stopwords is defined, the algorithm will identify and remove any instances of those words from the text.
 
+#Stemming
+Stemming is a natural language processing technique that is used to reduce words to their base or root form to normalize text and making it easier to process. This is done by removing prefixes, suffixes, and other word endings that may vary while preserving the stem of the word.
 
 
-
-# Ptroject steps 
+# Project steps 
 + **Steps for a machine learning model that can determine if a piece of news was produced by a human or an AI**
 
 ### Create and Pre-process data 
-Create a dataset of news articles that are labeled as Human and AI. Pre-process the data by cleaning the text, removing stop words, and converting the text into numerical features using techniques like TF-IDF.
+Create a dataset of news articles that are labelled as Human and AI. Pre-process the data by cleaning the text, removing stop words, and converting the text into numerical features using techniques like TF-IDF.
 
 ```
 # Load the dataset
@@ -107,5 +108,8 @@ In order to pre-process the data, we first import the dataset and use the TF-IDF
 
 
 + **Steps for a machine learning model that can determine if a piece of news was fake or real**
+### Collect and Pre-process data 
+Collect the dataset of news articles that are having field as title, author, text and label. Pre-process the data by cleaning the text,removing the stopwords and converting the text into the reduced form by the methond of Stemming.
+
 
 
