@@ -109,7 +109,19 @@ In order to pre-process the data, we first import the dataset and use the TF-IDF
 
 + **Steps for a machine learning model that can determine if a piece of news was fake or real**
 ### Collect and Pre-process data 
-Collect the dataset of news articles that are having field as title, author, text and label. Pre-process the data by cleaning the text,removing the stopwords and converting the text into the reduced form by the method of Stemming.
+Collect the dataset of news articles that are having field as title, author, text and label. Pre-process the data by cleaning the text,checking of any null values in dataset and replacing that null values with empty string and converting the text into the reduced form by the method of Stemming.
+
+``` 
+# loading the dataset to a pandas DataFrame
+news_dataset = pd.read_csv('/content/train.csv',encoding= 'unicode_escape')
+
+# replacing the null values with empty string
+news_dataset = news_dataset.fillna('')
+
+# merging the author name and news title
+news_dataset['content'] = news_dataset['author']+' '+news_dataset['title']
+
+``` 
 
 
 
