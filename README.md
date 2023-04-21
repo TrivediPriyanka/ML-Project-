@@ -45,7 +45,7 @@ The reason for removing stopwords is to reduce the dimensionality of the text da
 
 Stopword removal algorithms use a list of predefined stopwords for a given language or domain. These lists can be customized to include or exclude specific words depending on the application. Once the list of stopwords is defined, the algorithm will identify and remove any instances of those words from the text.
 
-#Stemming
+# Stemming
 Stemming is a natural language processing technique that is used to reduce words to their base or root form to normalize text and making it easier to process. This is done by removing prefixes, suffixes, and other word endings that may vary while preserving the stem of the word.
 
 
