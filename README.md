@@ -109,7 +109,7 @@ In order to pre-process the data, we first import the dataset and use the TF-IDF
 
 + **Steps for a machine learning model that can determine if a piece of news was fake or real**
 ### Collect and Pre-process data 
-Collect the dataset of news articles that are having field as title, author, text and label. Pre-process the data by cleaning the text,removing the stopwords and converting the text into the reduced form by the methond of Stemming.
+Collect the dataset of news articles that are having field as title, author, text and label. Pre-process the data by cleaning the text,removing the stopwords and converting the text into the reduced form by the method of Stemming.
 
 
 
