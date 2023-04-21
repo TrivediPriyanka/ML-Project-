@@ -50,7 +50,7 @@ Stemming is a natural language processing technique that is used to reduce words
 
 
 # Project steps 
-+ **Steps for a machine learning model that can determine if a piece of news was produced by a human or an AI**
++ ## ***Steps for a machine learning model that can determine if a piece of news was produced by a human or an AI***
 
 ### Create and Pre-process data 
 Create a dataset of news articles that are labelled as Human and AI. Pre-process the data by cleaning the text, removing stop words, and converting the text into numerical features using techniques like TF-IDF.
@@ -107,7 +107,7 @@ In order to pre-process the data, we first import the dataset and used the TF-ID
 
 
 
-+ **Steps for a machine learning model that can determine if a piece of news was fake or real**
++ ## ***Steps for a machine learning model that can determine if a piece of news was fake or real***
 ### Collection and Pre-processing of data 
 Collect the dataset of news articles that are having field as title, author, text and label. Pre-process the data by cleaning the text,checking of any null values in dataset, replacing that null values with empty string and converting the text into the reduced form by the method of Stemming and converting the text into numerical features using techniques like TF-IDF.
 
